@@ -1,37 +1,39 @@
-/* src/App.css */
-.app {
-  font-family: Arial, sans-serif;
+.container {
   padding: 20px;
+  min-height: 100vh;
 }
 
-.timezone-slider {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
 }
 
-.timezone-info {
-  flex: 1;
+.input-field {
+  color: inherit;
 }
 
-input[type="range"] {
-  flex: 2;
+.timezone-paper {
+  padding: 20px;
+  margin-top: 20px;
 }
 
-.time-display {
-  flex: 1;
-  text-align: right;
+.time-slider {
+  width: 100%;
 }
 
-button {
+.input-time {
+  font-size: 24px;
   margin-left: 10px;
-  padding: 5px 10px;
-  border: none;
-  background-color: red;
-  color: white;
-  cursor: pointer;
+  color: inherit;
 }
 
-button:hover {
-  background-color: darkred;
+.time-label {
+  margin-top: 10px;
+}
+
+.time-value {
+  margin-left: 10px;
+}
+.button{
+  margin: 15px;
 }
